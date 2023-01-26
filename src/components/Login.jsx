@@ -83,12 +83,12 @@ const Login = () => {
       <img className= "relative right-20" src="/Recurso 8principal1 .png" alt="" />
       <div className='hidden absolute top-0 w-full h-full bg-primary-blue' ></div>
     </div>
-    <div className='absolute w-full sm:w-auto right-0 h-52 bottom-0 overflow-hidden'>
+    <div className='absolute w-full  sm:w-auto right-0 h-52 bottom-0 overflow-hidden'>
           <img className='relative' src="/Recurso 5principal1.png" alt="" />
         </div>
     <form onSubmit={handleSubmit}>
 
-    <div className="w-8/12  sm:w-2/5 h-2/3 mt-48 pt-6 justify-center items-center m-auto">
+    <div className="w-8/12 relative  sm:w-2/5 h-2/3 mt-48 pt-6 justify-center items-center m-auto">
         <div className='lg-mx-36'>
             <h1 className='mb-5 text-4xl relative bottom-10 text-center "'>Iniciar sesion</h1>
             <label htmlFor='email'>
