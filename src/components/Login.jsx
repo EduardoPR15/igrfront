@@ -61,7 +61,7 @@ const Login = () => {
     </div>
     </form>
     
-      
+      <Link to='/Home' >Home</Link>
       
     </div>
   )
