@@ -1,4 +1,4 @@
-import axios from 'axios'
+
 import React, { useEffect, useState } from 'react'
 import Products from './Products'
 import { Link } from 'react-router-dom'
@@ -21,7 +21,7 @@ const Home = () => {
         setdisplay('right-1')
     
     }
-    console.log(display);
+  
  }
 
   return (

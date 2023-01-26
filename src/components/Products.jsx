@@ -20,8 +20,8 @@ const Products = () => {
         <div className='flex flex-col mb-10 gap-10 justify-center sm:flex-row sm:ml-10 sm:mr-10 sm:flex-wrap'>
         {
           productsUnit?.map(produ =>(
-            <div>
-                <ProductCard key={produ.tbProductosId} produ={produ}/>
+            <div key={produ.tbProductosId}>
+                <ProductCard  produ={produ}/>
             </div>
           ))
         }

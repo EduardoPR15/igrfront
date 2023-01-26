@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductCard = ({produ}) => {
   const stock = (produ.existenciasQro + produ.existenciasCuliacan + produ.existenciasLeon + produ.existenciasMexicali + produ.existenciasPuebla + produ.existenciasTorreon   );
-  const imgProduct = (`${produ.imagen}.png`)
+  const imgProduct = (`${produ.imagen}.jpg`)
   return (
 
     
